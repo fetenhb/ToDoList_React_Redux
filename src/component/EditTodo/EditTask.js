@@ -48,7 +48,7 @@ const EditTask = ({el,editToDo}) => {
           </Modal.Body>
           <Modal.Footer style={{backgroundColor:'  rgb(1 35 90)'}} >
         {/* ------------------------- bouton cansel ------------------- */}
-               <button className='todo-button'  style={{borderRadius:'4px', padding:'10px '}}> 
+               <button className='todo-button'  style={{borderRadius:'4px', padding:'10px '}} onClick={ handleClose}> 
                   Cancel
                 </button>
             
